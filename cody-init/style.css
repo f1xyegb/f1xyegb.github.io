@@ -1,0 +1,14 @@
+:root{--paper:#EAE7E1;--ink:#141414;--dim:#5C5850;--hair:#CFCAC1;--signal:#FF4F00}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif}
+main{max-width:680px;margin:0 auto;padding:48px 16px 64px}
+.logo{font:600 28px ui-monospace,"SF Mono",Menlo,monospace}
+.logo b{display:inline-block;width:12px;height:24px;background:var(--signal);vertical-align:-3px;margin-left:4px}
+nav{margin:8px 0 32px;font:13px ui-monospace,"SF Mono",Menlo,monospace;text-transform:uppercase;letter-spacing:.08em}
+nav a{color:var(--dim);margin-right:16px;text-decoration:none}
+nav a:hover{color:var(--ink)}
+h1{font-size:30px;line-height:1.2;margin:0 0 8px}
+h2{font:600 13px ui-monospace,"SF Mono",Menlo,monospace;text-transform:uppercase;letter-spacing:.08em;margin:32px 0 8px;padding-top:12px;border-top:1px solid var(--hair)}
+.meta{color:var(--dim);font:13px ui-monospace,"SF Mono",Menlo,monospace}
+a{color:var(--ink)}
+.lang{margin-top:48px;padding-top:12px;border-top:1px solid var(--ink)}

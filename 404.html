@@ -1,0 +1,8 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Not found</title>
+<script>
+  // old per-app sites lived at /<app>-site/; send anything left there to the new folder
+  var m = location.pathname.match(/^\/(nokk|prmt|rusty|cody-init)-site(\/.*)?$/);
+  if (m) location.replace('/' + m[1] + (m[2] || '/'));
+</script>
+<style>body{font:16px/1.5 -apple-system,system-ui,sans-serif;max-width:560px;margin:80px auto;padding:0 24px;color:#1d1d1f}a{color:inherit}</style></head>
+<body><p>Page not found. <a href="/">All apps</a></p></body></html>
